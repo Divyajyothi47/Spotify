@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player:Music for everyone </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="data:image/jpeg;base64,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">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./spotify.css">
+</head>
+
+<body>
+    <section>
+        <!-- left section -->
+        <section>
+
+            <div class="div1">
+                <div class="home">
+                    <i class="fa-sharp fa-solid fa-house fa-xl" style="color: #ffffff;"></i>&nbsp; &nbsp;<b>Home</b>
+                </div>
+                <div class="search">
+                  <a href="#" id="sea">  <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #606266;"></i>&nbsp; &nbsp;<b>Search</b></a>
+                </div>
+            </div>
+
+            <div class="div2">
+                <div class="library">
+                    <div class="fixed">
+                        <img id="img" style="height: 33px; margin-left: 5px;"  src="./9880894_music_library_multimedia_book_icon.png" alt="">
+                        <span id="lib"> Your Library</span>
+                        <img id="img2" style="height: 60px;" src="./2044286_add_plus_icon.png" alt="">
+                    </div>
+                </div>
+                <div class="playlist">
+                    <h1 style="color: #ffffff; margin-left: 27px; font-size: 17px; margin-top: 10px;">Create your first playlist</h1>
+                    <p style="color: #ffffff; margin-left: 27px; font-size:15px;">It's easy,we'll help you</p><br>
+                    <button class="button"><a href="">Create playlist</a></button>
+                </div>
+                <div class="podcast">
+                    <h1 style="color: #ffffff; margin-left: 27px; font-size: 17px; margin-top: 10px;">Let's find some podcasts to follow</h1>
+                    <p style="color: #ffffff; margin-left: 27px; font-size:15px;">We'll keep you updated on new episodes</p><br>
+                    <button class="button"><a href="">Browse podcast</a></button>
+                </div>
+            </div>
+    
+        </section>
+        <!-- left sec ends -->
+
+        <!-- right section starts -->
+
+        <section class="right">
+
+            <div class="header">
+                <span class="larrow"><i class="fa-solid fa-angle-left fa-xl" style="color: #f1f2f3;"></i></span>
+                <span class="rarrow"><i class="fa-solid fa-angle-right fa-xl" style="color: #eeeff2;"></i></span>
+                <button class="signup"><a href="#">Sign up</a></button>
+                <button class="login"><a href="#">Log in</a></button>
+            </div><br><br><br>
+
+            <div class="main">
+                <h1 style="font-weight: 750;">Focus</h1>
+                <p class="show"><a href="">Show all</a></p>
+
+              <!-- card starts -->
+            <div class="card" style="width: 14rem; height: 20rem;">
+                <img src="https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6" style="width: 12rem; margin: 15px; margin-bottom: 5px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 style="color: #ffffff; font-size: 18px; font-weight: 600; margin-left:3px ;">Peaceful Piano</h4>
+                    <p class="card-text" style="color: #76777a; font-weight: 560;">Peaceful piano to help you slow down,....... </p>
+                </div>
+            </div>
+            <div class="card1" style="width: 14rem; height: 20rem;">
+                <img src="https://i.scdn.co/image/ab67706f000000025551996f500ba876bda73fa5" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 style="color: #ffffff; font-size: 18px; font-weight: 600; margin-left:13px ;">Deep Focus</h4>
+                    <p class="card-text" style="color: #76777a; margin: 10px; font-weight: 560;">Keep calm and focus with ambient and post-rock.....</p>
+                </div>
+            </div>
+            <div class="card2" style="width: 14rem; height: 20rem;">
+                <img src="https://i.scdn.co/image/ab67706f00000002fe24d7084be472288cd6ee6c" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 style="color: #ffffff; font-size: 18px; font-weight: 600; margin-left:13px ;">Instrumental Study</h4>
+                    <p class="card-text" style="color: #76777a; margin: 10px;">Focus with soft study music in the background.</p>
+                </div>
+            </div>
+            <div class="card3" style="width: 14rem; height: 20rem;">
+                <img src="	https://i.scdn.co/image/ab67706f00000002724554ed6bed6f051d9b0bfc" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 style="color: #ffffff; font-size: 18px; font-weight: 600; margin-left:13px ;">Focus Flow</h4>
+                    <p class="card-text" style="color: #76777a; margin: 10px;">Uptempo instrumental hip hop beats.</p>
+                </div>
+            </div>
+            <div class="card4" style="width: 14rem; height: 20rem;">
+                <img src="https://i.scdn.co/image/ab67706f0000000296e08a91ef3c7a6e7bfaa9a6" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 style="color: #ffffff; font-size: 18px; font-weight: 600; margin-left:13px ;">Beats to thinks to</h4>
+                    <p class="card-text" style="color: #76777a; margin: 10px;">Focus with deep techno and tech house..</p>
+                </div>
+            </div>
+            <h1 style="margin-top: 45px; margin-left: 30px; font-weight: 750;">Spotify Playlists</h1>
+
+            <section id="sec">
+                <div class="card5" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706f000000024a7b7b828b33d4ba83a63a27" style="width: 12rem; margin: 15px; " class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Today's Top Hits</h4>
+                      <p style="color: #76777a; margin: 10px;margin-left: 15px;font-weight: 560;" class="card-text">Doja Cat on top of the Hottest 50!</p>
+                    </div>
+                  </div>
+                  <div class="card6" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706f00000002892fb649e0165eb651df8011" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>RapCaviar</h4>
+                      <p style="color: #76777a; margin: 10px; font-weight: 560;" class="card-text">New music from Gunna, Gucci Mane and Doja Cat.</p>
+                    </div>
+                  </div>
+                  <div class="card7" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>All Out 2010's</h4>
+                      <p style="color: #76777a; margin: 10px; font-weight: 560;" class="card-text">The biggest songs of the 2010s. </p>
+                    </div>
+                  </div>
+                  <div class="card8" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Rock Classics</h4>
+                      <p style="color: #76777a; margin: 10px; font-weight: 560;" class="card-text">Rock legends & epic songs that..........</p>
+                    </div>
+                  </div>
+                  <div class="card9" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706f00000002b60db5d1bcdd9c4fd1ebcffe" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Rock Classics</h4>
+                      <p style="color: #76777a; margin: 10px; font-weight: 560;" class="card-text">Kick back to the best new and recent chill hits.</p>
+                    </div>
+                  </div> 
+            </section>
+            <!-- <div style="display: flex;"> -->
+                <h1 style="margin-top: 385px; margin-left: 30px; font-weight: 750; color: #ffffff;">Sleep</h1>
+                <p style="margin-top: 385px;" class="show"><a href="">Show all</a></p>
+            <!-- </div> -->
+            <section>                
+            <div class="card10" style="width: 14rem; height: 20rem;">
+                <img src="https://i.scdn.co/image/ab67706f00000002bc9438e3a6ff78076f8b1405" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>Sleep</h4>
+                  <p style="color: #76777a; margin: 10px; margin-left: 13px; font-weight: 560;" class="card-text">Gentle Ambient piano to help you fall asleep. </p>
+                </div>
+              </div> 
+              <div class="card11" style="width: 14rem; height: 20rem;">
+                <img src="https://i.scdn.co/image/ab67706f00000002d2291e0c5d43a1b21a941031" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4>DayDreamer</h4>
+                  <p style="color: #76777a; margin: 10px; margin-left: 13px; font-weight: 560;" class="card-text">Drift away with enthralling instrumentals.</p>
+                </div>
+              </div> 
+            </section>
+
+            <h1 style="margin-top: 395px; margin-left: 30px; margin-bottom: 20px; font-weight: 750; color: #ffffff;">South of India</h1>
+            <section class="sec2" style="display: flex;">                
+                <div class="card12" style="width: 14rem; height: 20rem; border-radius: 10px;">
+                    <img src="https://i.scdn.co/image/ab67706c0000da8436ea3a15c04a4b0821958ceb" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>The Sound of Mumb....</h4>
+                      <p style="color: #76777a; margin: 10px; margin-left: 13px; font-weight: 560;" class="card-text">The songs that define, unite and distinguish....</p>
+                    </div>
+                  </div> 
+                  <div class="card13" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706c0000da84ca51e0b1b2526295415ea0f7" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>The Sound of Kolkata IN</h4>
+                      <p style="color: #76777a; margin: 10px; margin-left: 13px; font-weight: 560;" class="card-text">The songs that define, unite and distinguish.....</p>
+                    </div>
+                  </div> 
+                  <div class="card14" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706c0000da84fdad3548d41af616a7e8d64c" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>The Sound of Delhi IN</h4>
+                      <p style="color: #76777a; margin: 10px; margin-left: 13px; font-weight: 560;" class="card-text">The songs that define, unite and distinguish..... </p>
+                    </div>
+                  </div> 
+                  <div class="card15" style="width: 14rem; height: 20rem;">
+                    <img src="https://i.scdn.co/image/ab67706c0000da84d8f01d1da427744c3c74172d" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>The Sound of Bengaluru</h4>
+                      <p style="color: #76777a; margin: 0px; margin-left: 13px; font-weight: 560;" class="card-text">The songs that define, unite and disting.....</p>
+                    </div>
+                </div>
+                    <div class="card16" style="width: 14rem; height: 20rem;">
+                        <img src="https://i.scdn.co/image/ab67706c0000da8487c680fc5e5805eaef5d4dd2" style="width: 12rem; margin: 15px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>The Sound of Chennai</h4>
+                          <p style="color: #76777a; margin: 0px; margin-left: 13px; font-weight: 560;" class="card-text">The songs that define, unite and distinguish.... </p>
+                        </div>
+                      </div> 
+    
+                  </div> 
+
+                </section>
+            <!-- card ends -->
+            </div>
+            
+    
+
+        </section>
+
+        <!-- right section ends -->
+
+    </section>
+
+    <footer class="footer">
+        <section id="footer">
+            <aside>
+                <ul>
+                    <h5>Company</h5>
+
+                    <li>About</li>
+                    <li>Jobs</li>
+                    <li>For the Record</li>
+                </ul>
+            </aside>
+            <aside>
+                <ul>
+                    <h5>Communities</h5>
+
+                    <li>For Artist</li>
+                    <li>Developers</li>
+                    <li>Advertising</li>
+                    <li>Investors</li>
+                    <li>Vendors</li>
+                    <li>Spotify for work</li>
+                </ul>
+            </aside>
+            <aside>
+                <ul>
+                    <h5>Useful links</h5>
+
+                    <li>Support</li>
+                    <li>Free MobileApp</li>    
+                </ul>
+            </aside>
+        </section>
+        <section id="rightfoot">
+            <div id="insta">
+                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+              </svg></span>
+            </div>
+            <div id="twitter">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg>
+                </span>
+            </div>
+            <div id="facebook">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                </span>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>

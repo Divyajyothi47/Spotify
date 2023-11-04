@@ -1,0 +1,447 @@
+*{
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; */
+}
+body{
+    background-color: black;
+}
+.div1{
+    margin-top: 12px;
+    /* border: 2px solid; */
+    height: 125px;
+    width:380px;
+    /* background-color: black; */
+    border-radius: 15px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-left: 27px;
+    font-size: 17.8px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 27px;
+}
+#sea{
+    text-decoration: none;
+}
+.search b{
+    color: #606266;
+    font-size: 17.8px;
+}
+#sea i,b:hover{
+    color: #f3ebeb;
+}
+
+.div2{
+    height: 470px ;
+    width: 400px;
+    /* border: 2px solid blue; */
+    margin-top: 10px;
+    border-radius: 15px;
+    /* background-color: #fff; */
+}
+.fixed{
+    position: sticky;
+    display: flex;
+    align-items: center;
+
+}
+.library{
+    background-color: black;
+    margin-top: 1;
+    max-width: 100%;
+    min-height: 75px;
+    /* border: 2px solid yellowgreen; */
+    border-radius: 15px;
+}
+#lib{
+    font-weight: 630;
+    font-size: 18px;
+    color: #948b8b;
+    margin-left: 40px;
+}
+#lib:hover{
+    color: aliceblue;
+}
+#img{
+    padding: 15px;
+}
+#img2{
+    margin-left: 140px;
+    cursor: pointer;
+    /* border: 2px solid ; */
+}
+
+.playlist{
+    max-width: 96%;
+    height: 170px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #2d2d2e;
+}
+.podcast{
+    max-width: 96%;
+    height: 170px;
+    margin-top: 19px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #2d2d2e;
+}
+.button{
+    height: 44px;
+    width: 150px;
+    padding: 19px auto;
+    margin-left: 26px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.button:hover{
+    width: 152px;
+    height: 46px;
+}
+.right{
+    /* border: 2px solid whitesmoke; */
+    border-radius: 15px;
+    height: 100vh;
+    margin-top: 10px;
+    margin-left: 390px;
+    position: absolute;
+    top: 0;
+    width: 81rem;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    max-width: 2000rem;
+    border-radius: 15px;
+    height: 74px;
+    /* border: 2px solid red; */
+    background-color: rgb(22, 19, 19);
+    box-shadow: 6px 6px 6px rgb(4, 4, 4);
+}
+.larrow{
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    background-color: #000;
+}
+.rarrow{
+    border: 2px solid rgb(10, 10, 10);
+    margin-left: 66px;
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    border-radius: 50px;
+    background-color: #000;
+}
+.larrow,.rarrow:hover{
+    cursor: not-allowed;
+}
+.signup{
+    margin-left: 990px;
+    margin-top: 9px;
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+    border-style: none;
+}
+.login{
+    margin-left: 20px;
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    border-radius: 50px;
+    border-style: none;
+}
+.signup a{
+    text-decoration: none;
+    color: #A7A7A7;
+    font-weight: 600;
+    font-size: 17px;
+}
+.login a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(2, 2, 2);
+}
+.signup a:hover{
+    color: #fff;
+}
+.login a:hover{
+    font-weight: 600;
+}
+.main{
+    /* border: 2px solid yellow; */
+    /* height: 720px; */
+    background-image: linear-gradient(to bottom , hsla(0, 1%, 47%, 0.3),black);
+    margin-top: -78px;
+}
+.main h1{
+    /* position: static; */
+    margin-top: 1%;
+    margin-left: 25px;
+    color: #fff;
+    font-size: 28px;
+}
+.show{
+    position: absolute;
+    left: 1190px;
+    bottom: 640px;
+    color: #fff;
+}
+.show a{
+    text-decoration: none;
+    color: #adafb4;
+    font-weight: 600;
+}
+.show a:hover{
+    text-decoration: underline;
+}
+.main h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card{
+    /* border: 2px solid crimson; */
+    margin: 10px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card1{
+    /* border: 2px solid crimson; */
+    position: absolute;
+    left:280px;
+    bottom: 313px;
+    background-color: #19191a;
+    border-radius: 7px;
+    margin: 10px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card2{
+    /* border: 2px solid crimson; */
+    position: absolute;
+    left: 540px;
+    bottom: 320px;
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+}
+.card3{
+    /* border: 2px solid crimson; */
+    position: absolute;
+    left: 785px;
+    bottom: 319px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+    background-color: #19191a;
+}
+.card4{
+    /* border: 2px solid crimson; */
+    position: absolute;
+    left: 1030px;
+    bottom: 319px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+    background-color: #19191a;
+}
+
+#sec .card5{
+    border-radius: 15px;
+    position: absolute;
+    margin: 20px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card6{
+    position: absolute;
+    margin-top: 20px;
+    left: 275px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+
+}
+.card7{
+    position: absolute;
+    margin-top: 20px;
+    left: 530px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+}
+.card8{
+    position: absolute;
+    margin-top: 20px;
+    left: 780px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+}
+.card9{
+    position: absolute;
+    margin-top: 20px;
+    left: 1030px;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+    border-radius: 7px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+}
+.card10{
+    border-radius: 15px;
+    position: absolute;
+    margin: 20px;
+    margin-left: 40px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card11{
+    border-radius: 15px;
+    position: absolute;
+    margin: 20px;
+    margin-left: 300px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card-body h4{
+    color: #fff;
+    font-size: 18px; 
+    font-weight: 600; 
+    margin-left: 15px;
+}
+.sec2{
+    gap:25px
+}
+.card12 {
+    margin-left: 30px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card13{
+    border-radius: 10px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card14{
+    border-radius: 10px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card15{
+    border-radius: 10px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.card16{
+    border-radius: 10px;
+    background-image: linear-gradient(from top,black,rgb(97, 93, 93));
+    background-color: #19191a;
+    box-shadow: 5px 5px 6px rgb(34, 33, 33);
+}
+.sec2 .card-body h4{
+    font-size: 17px;
+}
+.footer{
+    margin-top: 1210px;
+    margin-left: 390px;
+    /* border: 2px solid palegreen; */
+    width: 81rem;
+    height: 500px;
+}
+
+#footer{
+    display: flex;
+    gap: 50px;
+}
+aside ul{
+    list-style: none;
+    padding: 25px;
+}
+aside h5{
+    color: #fff;
+    font-weight: 600;
+    font-size: 17.7px;
+}
+aside ul li{
+    margin-right: 50px;
+    color: #606266;
+    font-weight: 530;
+    font-size: 18px;
+    padding: 5px;
+}
+aside ul li:hover{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: 1px underline;
+}
+#rightfoot{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    /* border: 2px solid rebeccapurple; */
+    width: 400px;
+    height: 400px;
+    margin-left: 850px;
+    position: absolute;
+    top: 1855px;
+}
+#insta span{
+    color:#fff;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: hsla(0, 2%, 55%, 0.3);
+}
+#twitter span{
+    color:#fff;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: hsla(0, 2%, 55%, 0.3);
+
+}
+#facebook span{
+    color:#fff;
+    padding: 18px;
+    border-radius: 100%;
+    background-color: hsla(0, 2%, 55%, 0.3);
+}
+#insta span:hover{
+    background-color: hsla(0, 18%, 90%, 0.3);
+}
+#twitter span:hover{
+    background-color: hsla(0, 18%, 90%, 0.3);
+}
+#facebook span:hover{
+    background-color: hsla(0, 18%, 90%, 0.3);
+}
